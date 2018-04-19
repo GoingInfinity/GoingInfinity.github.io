@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="keywords" content="HTML,CSS,Software,JavaScript,React,WebRTC">
+  <meta name="author" content="Jonathan Lee">
+  <!-- <link rel="shortcut icon" href="./rocket.ico" type="img/x-icon"> -->
+  <link href='./fonts.css' rel='stylesheet'>
+  <link href="./style.css" rel="stylesheet" type="text/css">
+  <!-- <link href="./mobile-style.css" rel="stylesheet" type="text/css"> -->
+  <link href='https://fonts.googleapis.com/css?family=Work+Sans' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Jonathan H Lee</title>
+</head>
+
+<body class="invis">
+  <div id="welcome">
+    <div id="welcome-text-container">
+      <p id="trivia">Hey there everyone!</p>
+      <p id="name">Jonathan H Lee</p>
+      <p id="description">Software Engineer</p>
+      <hr />
+      <div id="links-container">
+        <a class="welcome-link" href="https://github.com/GoingInfinity" target="_blank" rel="noopener noreferrer">
+          <i class="fa fa-github"></i>
+          <text>GitHub</text>
+        </a>
+        <a class="welcome-link" href="https://www.linkedin.com/in/jonathan-h-lee/" target="_blank" rel="noopener noreferrer">
+          <i class="fa fa-linkedin"></i>
+          <text>Linkedin</text>
+        </a>
+        <a class="welcome-link" href="https://angel.co/jonathan-lee-104" target="_blank" rel="noopener noreferrer">
+          <i class="fa fa-angellist"></i>
+          <text>AngelList</text>
+        </a>
+        <a class="welcome-link" id="project-scroll" href="javascript:;">
+          <i class="fa fa-cube"></i>
+          <text>Projects</text>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div id="project-container" class="hidden">
+    <h1>Current/Recent Projects</h1>
+    <div class="project">
+      <i class="project-main-icon fa fa-cube"></i>
+      <div class="project-info">
+        <div class="project-header">
+          <h2>PingMe</h2>
+          <a class="project-link" href="https://github.com/jitter489/pingme" target="_blank" rel="noopener noreferrer">
+            <i class="project-icon fa fa-github"></i>
+          </a>
+        </div>
+        <p class="project-description">
+          A MERN stack application that aggregates web-toon/animation updates and notifies users based on their subscriptions. My current role in the team is writing and testing functions that gather  latest updates from various API and websites and query the results into a noSQL database.
+        </p>
+      </div>
+    </div>
+    <div class="project">
+      <img class="main-project-img" src="./react_fav_48px.png" />
+      <div class="project-info">
+        <div class="project-header">
+          <h2>React Scope</h2>
+          <a class="project-link" href="https://github.com/React-Scope/React-Scope" target="_blank" rel="noopener noreferrer">
+            <i class="project-icon fa fa-github"></i>
+          </a>
+          <a class="project-link" href="http://reactscope.com/" target="_blank" rel="noopener noreferrer">
+            <i class="project-icon fa fa-cube"></i>
+          </a>
+        </div>
+        <p class="project-description">
+          Our DevTool, which has gained 1000+ users so far, allows you to picture your components, state, and props as a DOM tree visualization. It's also interactive. As you trigger state changes within your app (e.g., a click event), the visualization will update as well. The ability to visualize state changes and identify where props are being passed down can make debugging React applications easier.
+        </p>&nbsp;
+        <p class="project-description">
+          Featured on React Newsletter and Javascript Weekly.
+        </p>
+      </div>
+    </div>
+    <div class="project">
+      <i class="project-main-icon fa fa-bell-o"></i>
+      <div class="project-info">
+        <div class="project-header">
+          <h2>Get Visual</h2>
+          <a class="project-link" href="https://github.com/wasafune/pomodoro" target="_blank" rel="noopener noreferrer">
+            <i class="project-icon fa fa-github"></i>
+          </a>
+          <a class="project-link" href="https://wasafune.github.io/pomodoro/" target="_blank" rel="noopener noreferrer">
+            <i class="project-icon fa fa-cube"></i>
+          </a>
+        </div>
+        <p class="project-description">
+          Visualizer for GET/POST requests
+        </p>
+      </div>
+    </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
