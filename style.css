@@ -122,10 +122,10 @@ p {
   /* text-shadow: 5px 5px 5px var(--night-blue); */
 }
 
-#contacts {
+.contacts {
   text-align: center;
-  font-family: Type of Chalk;
-  font-size: 24px;
+  font-family: Black-Hawk;
+  font-size: 60px;
 }
 #trivia {
   font-size: 20px;
