@@ -113,6 +113,20 @@ p {
   /* color: var(--lighter-starship-green); */
   /* text-shadow: 5px 5px 5px var(--night-blue); */
 }
+#contact {
+  text-align: center;
+  margin: 10px 0 25px 0;
+  font-size: 30px;
+  font-family: Type of Chalk;
+  /* color: var(--lighter-starship-green); */
+  /* text-shadow: 5px 5px 5px var(--night-blue); */
+}
+
+#contacts {
+  text-align: center;
+  font-family: Type of Chalk;
+  font-size: 24px;
+}
 #trivia {
   font-size: 20px;
   text-shadow: 1px 1px 1px var(--night-blue);
