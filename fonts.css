@@ -4,3 +4,9 @@
   font-weight: normal;
   src: local('Type of Chalk'), url('Fonts-Chalk.otf') format('opentype');
   }
+@font-face {
+  font-family: 'Black Hawk';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Black Hawk'), url('Black-Hawk.ttf') format('opentype');
+  }
